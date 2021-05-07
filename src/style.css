@@ -1,0 +1,21 @@
+body {
+  margin: 2em;
+}
+
+input {
+  display: block;
+  margin: 5px 0;
+  padding: 5px;
+  min-width: 250px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+button {
+  margin: 5px;
+  background: darkblue;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}

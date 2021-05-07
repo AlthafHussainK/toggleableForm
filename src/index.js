@@ -1,5 +1,6 @@
 import React, { useState, useRef, forwardRef, useEffect, createElement } from 'react';
 import ReactDOM from 'react-dom';
+import '../src/style.css'
 
 const App = () => {
   let data = [
@@ -10,6 +11,7 @@ const App = () => {
   return (
     <section>
       <h2>Login / Sign up</h2>
+      <ToggleableForm options={data} />
     </section>
   )
 }
